@@ -2,7 +2,6 @@ package com.example.movieapp.domain.validation
 
 import com.example.movieapp.domain.validation.model.ValidationError
 import com.example.movieapp.domain.validation.model.ValidationMessage
-import com.example.movieapp.domain.validation.model.validation_message.EmailValidationMessage
 
 class FailedValidation(
     val error: ValidationError,

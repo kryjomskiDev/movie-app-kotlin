@@ -1,7 +1,5 @@
 package com.example.movieapp.domain.validation.model.validation_message
 
-import androidx.annotation.StringRes
-import androidx.compose.ui.res.stringResource
 import com.example.movieapp.R
 import com.example.movieapp.domain.validation.model.ValidationError
 import com.example.movieapp.domain.validation.model.ValidationMessage

@@ -1,6 +1,6 @@
 package com.example.movieapp.domain.validation.model.validators
 
-import android.util.Patterns.*
+import android.util.Patterns.EMAIL_ADDRESS
 import com.example.movieapp.domain.validation.model.TextFieldValidator
 import com.example.movieapp.domain.validation.model.ValidationError
 

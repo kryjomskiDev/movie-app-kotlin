@@ -3,8 +3,6 @@ package com.example.movieapp.data.movies.datasource
 
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
-import com.example.movieapp.data.movies.dto.MovieDto
-import com.example.movieapp.data.movies.dto.MovieListDto
 import com.example.movieapp.data.movies.dto.toDomain
 import com.example.movieapp.domain.movies.model.Movie
 import retrofit2.HttpException

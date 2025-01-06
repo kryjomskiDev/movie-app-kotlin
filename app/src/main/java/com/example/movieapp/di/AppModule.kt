@@ -1,10 +1,8 @@
 package com.example.movieapp.di
 
-import androidx.compose.ui.text.style.LineBreak
 import com.example.movieapp.data.interceptors.AcceptedContentTypeInterceptor
 import com.example.movieapp.data.interceptors.AuthInterceptor
 import com.example.movieapp.data.movies.datasource.MoviesApi
-import com.example.movieapp.networkingconfig.NetworkingConfig
 import com.example.movieapp.networkingconfig.NetworkingConfig.API_BASE_URL
 import com.google.firebase.auth.FirebaseAuth
 import com.google.gson.Gson
@@ -18,7 +16,6 @@ import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.create
 import java.util.concurrent.TimeUnit
 import javax.inject.Singleton
 

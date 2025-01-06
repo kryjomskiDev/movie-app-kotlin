@@ -1,15 +1,12 @@
 package com.example.movieapp.presentation.screens.settings.viewmodel
 
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.viewModelScope
 import com.example.movieapp.domain.auth.usecase.GetCurrentUserEmailUseCase
 import com.example.movieapp.domain.auth.usecase.LogoutUseCase
 import com.example.movieapp.presentation.screens.settings.state.SettingsScreenState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
-import kotlinx.coroutines.flow.update
-import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
