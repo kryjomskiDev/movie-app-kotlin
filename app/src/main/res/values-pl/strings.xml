@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login">Zaloguj się</string>
+    <string name="email">Email</string>
+    <string name="password">Hasło</string>
+    <string name="create_account">Stwórz konto</string>
+    <string name="login_instead">Posiadam konto</string>
+    <string name="error_bottom_sheet_title">Ups… Coś poszło nie tak</string>
+    <string name="error_bottom_sheet_auth_description">Sprawdź email i hasło, następnie spróbuj ponownie</string>
+    <string name="error_bottom_sheet_button_title">Zamknij</string>
+    <string name="settings">Ustawienia</string>
+    <string name="home">Start</string>
+    <string name="validation_invalid_email">Niepoprawny email</string>
+    <string name="validation_invalid_password">Niepoprawne hasło</string>
+    <string name="validation_email_field_required">Email jest wymagany</string>
+    <string name="validation_password_field_required">Hasło jest wymagane</string>
+    <string name="settings_account">Konto</string>
+    <string name="settings_general">Ogólne</string>
+    <string name="settings_logout">Wyloguj</string>
+    <string name="refresh">Odśwież</string>
+    <string name="movies_empty_title">Nie znaleziono filmów</string>
+</resources>
